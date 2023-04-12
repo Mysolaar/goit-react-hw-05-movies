@@ -7,7 +7,6 @@ const MovieDetails = lazy(() => import('../pages/MovieDetails'));
 const Movies = lazy(() => import('../pages/Movies'));
 const Cast = lazy(() => import('./Cast/Cast'));
 const Reviews = lazy(() => import('./Revievs/Revievs'));
-const PageNotFoud = lazy(() => import('../pages/PageNotFound'));
 
 export const App = () => {
   return (
